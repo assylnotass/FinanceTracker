@@ -131,3 +131,5 @@ flutter_native_splash:
     image: assets/icon/app_icon.png
     icon_background_color: "#FFFFFF"
     icon_background_color_dark: "#121212"
+
+license: MIT
