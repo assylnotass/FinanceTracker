@@ -1,0 +1,41 @@
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+pubspec.lock
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+
+# Android
+android/.gradle/
+android/app/*.keystore
+android/key.properties
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+ios/Pods/
+ios/Runner.xcworkspace
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Firebase keys and secrets
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+serviceAccountKey.json
+*.secret.json
+.env
+
+# macOS & Windows builds
+macos/Flutter/GeneratedPluginRegistrant.swift
+windows/flutter/ephemeral/
+
+# Other
+*.log
+*.tmp
