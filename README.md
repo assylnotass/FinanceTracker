@@ -29,7 +29,7 @@ A modern mobile application for managing personal and family finances. Easily tr
 
 ## 🖼 App Demonstration 
 
-[![Demonstration](https://youtube.com/shorts/HyNM83P26jA?feature=share)
+[▶️ Watch the demo video](https://youtube.com/shorts/HyNM83P26jA?feature=share)
 
 ---
 
