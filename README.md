@@ -1,16 +1,75 @@
-# finance_app
+# 💰 Finance Tracker App
 
-Family Finance App to track expenses
+A modern mobile application for managing personal and family finances. Easily track your income, expenses, and financial goals — with smart notifications, detailed analytics, and a beautiful user interface.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 📥 Import transactions from Kaspi PDF bank statements  
+- ✍️ Manually add and edit income or expenses  
+- 📊 Visual analytics: pie charts, monthly balance trends, and category breakdowns  
+- 📁 Transaction history with filters, sorting, multi-select and export (PDF/CSV/Excel)  
+- 👨‍👩‍👧‍👦 Family mode: shared budgets, roles (admin/member), invite by code  
+- 🧠 Smart notifications: limits, subscription reminders, weekly reports, financial tips  
+- 🔐 PIN lock screen for extra security  
+- 🌐 Multi-language support: 🇺🇸 English, 🇷🇺 Russian, 🇰🇿 Kazakh  
+- 🌙 Dark mode, custom currency and language on first launch  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧱 Built With
+
+- **Flutter (Dart)**
+- **Firebase**: Authentication, Firestore, Storage
+- **Provider** for state management
+- **Local Notifications**, **PDF Parser**, **Charts**, and more
+
+---
+
+## 🖼 App Demonstration 
+
+![Demonstration](screenshot/app.gif)
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/your_username/finance_app.git
+cd finance_app
+```
+2. Install dependencies:
+
+```bash
+flutter pub get
+```
+3. Add Firebase config files:
+
+• google-services.json → android/app/
+• GoogleService-Info.plist → ios/Runner/
+
+4. Run the app:
+
+```bash
+flutter run
+```
+
+---
+
+## 📁 Project Structure
+```bash
+lib/
+├── screens/                 # Main UI screens
+├── helpers/                 # Utilities (notifications, exports, recurring)
+├── models/                  # Data models
+├── providers/               # State management
+├── localization/            # Multilingual support
+```
+
+---
+
+## 👤 Author
+Telegram: @assylnotass
